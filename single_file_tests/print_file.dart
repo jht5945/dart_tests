@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main(List<String> args) async {
-  print("Arguemnts: $args");
+  print("[INFO] Arguments: $args");
   if (args.length == 0) {
     print("No file assigned.");
     return;
